@@ -58,6 +58,16 @@ public class TryingMethods {
         }
     }
 
+
+    // Authentication
+    public void authentication(String userName, String password) {
+        if (userName == "Ozioma" & password == "Ozioma123") {
+            System.out.println("Authentication Success");
+        } else if (userName == "Favour" & password == "Favour123") {
+            System.out.println("Authentication Success");
+        } else
+            System.out.println("Wrong Username or Password !");
+    }
 }
 
 
