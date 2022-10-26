@@ -23,4 +23,19 @@ public class TryingMethods {
         return result;
     }
 
+    // Even Numbers
+    public static void evenNumbers() {
+        int sumOfEven = 0;
+        for (int i = 12; i < 103; i++) {
+            if (i % 2 == 0) {
+                sumOfEven += i;
+            } else
+                ;
+        }
+
+        System.out.println(sumOfEven);
+    }
+
 }
+
+
