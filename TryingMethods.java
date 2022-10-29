@@ -58,7 +58,6 @@ public class TryingMethods {
         }
     }
 
-
     // Authentication
     public void authentication(String userName, String password) {
         if (userName == "Ozioma" & password == "Ozioma123") {
@@ -69,5 +68,3 @@ public class TryingMethods {
             System.out.println("Wrong Username or Password !");
     }
 }
-
-
